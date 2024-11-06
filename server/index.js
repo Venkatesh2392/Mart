@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const connectDB = require('./database/userdb'); // Ensure this connects to your MongoDB
-const userRoutes = require('./routes/userRoute');
+const userRoutes = require('./Routes/UserRoute');
 const cartRoutes = require('./routes/CartRoute');
 const productRoutes = require('./routes/ProductRoute');
 const wishlistRoutes = require('./Routes/WishlistRoute');
